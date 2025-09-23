@@ -85,7 +85,12 @@ img{
         color: #FAFAFA;
         
     }
-
+}
+.active{
+    border-bottom: 1px solid #000;
+}
+.nav-links a:hover{
+    border-bottom: 1px solid #000;
 }
 .search-container{
     display: flex;
@@ -122,6 +127,9 @@ img{
 }
 .search img{
     width: 25px;
+}
+.search-icon2{
+    display: none;
 }
 .icons{
     display: flex;

@@ -54,6 +54,9 @@ cateLeftButton.addEventListener("click", cateScrollLeft)
 let accountButton = document.querySelector(".dropbtn")
 let accountButton2 = document.querySelector(".dropbtn2")
 let dropContent = document.querySelector('.dropdown-content')
+let searchIcon = document.querySelector(".search-icon")
+let searchInput = document.querySelector(".search-input") 
+let searchIcon2 = document.querySelector(".search-icon2")
 
 function buttonClicked (){
     dropContent.style.display = "block"
@@ -69,3 +72,17 @@ function buttonUnClicked (){
     accountButton2.style.display = "none"
 }
 accountButton2.addEventListener("click", buttonUnClicked)
+
+function searchClick (){
+    searchInput.style.display = "block"
+    searchIcon.style.display = "none"
+    searchIcon2.style.display = "block"
+}
+searchIcon.addEventListener("click", searchClick)
+
+function searchClick2 (){
+    searchInput.style.display = "none"
+    searchIcon.style.display = "block"
+    searchIcon2.style.display = "none"
+}
+searchIcon2.addEventListener("click", searchClick2)
