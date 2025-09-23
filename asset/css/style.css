@@ -1012,7 +1012,7 @@ img{
     display: flex;
     gap: 10px;
     border: 1px solid #FAFAFA;
-    background-color: #fafafa;
+    background-color: #000;
     padding: 10px;
 }
 .email-section input{
@@ -1026,6 +1026,10 @@ img{
 .email-section button{
     border: none;
     cursor: pointer;
+    background-color: #000;
+}
+.email-section button img{
+    filter: invert(100%);
 }
 .support-section h3{
     font-family: "Poppins", sans-serif;
