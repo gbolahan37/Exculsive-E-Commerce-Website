@@ -686,7 +686,7 @@ img{
     }
 }
 
-.category-content .btn{
+.category-content .btn1{
     background-color: #00FF66;
     border-radius: 4px;
     padding: 16px 48px 16px 48px;
@@ -1266,13 +1266,17 @@ img{
   align-items: center;
   justify-content: center;
   gap: 10px;
+  align-items: center;
 }
 
 .btn-google img {
   width: 20px;
   height: 20px;
 }
-
+.btn-google a{
+    text-decoration: none;
+    color: #000;
+}
 /* Footer text */
 .login-text {
   margin-top: 15px;
