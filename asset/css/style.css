@@ -53,6 +53,25 @@ img{
 
     @media (max-width: 958px) {
         display: none;
+        position: absolute;
+        position: fixed;
+        top: 60px;
+        right: 20px;
+        flex-direction: column;
+        background: linear-gradient(to bottom, #4a4a4a, #8d8484);
+        width: 320px;
+        height: 300px;
+        padding: 20px 0 0 0 ;
+        color: #FAFAFA;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+}
+.nav-links li{
+    @media (max-width: 958px) {
+      text-align: left;
+      padding: 12px 15px;
     }
 }
 .nav-links a{
@@ -61,6 +80,12 @@ img{
     font-size: 16px;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
+
+    @media (max-width: 950px) {
+        color: #FAFAFA;
+        
+    }
+
 }
 .search-container{
     display: flex;
@@ -96,7 +121,7 @@ img{
     outline: none;
 }
 .search img{
-    width: 18px;
+    width: 25px;
 }
 .icons{
     display: flex;
@@ -107,19 +132,77 @@ img{
     }
 }
 .icons img{
-    width: 18px;
+    max-width: 100%;
 }
+.dropbtn img:hover{
+    background-color: #24BABA;
+    border-radius: 50%;
+    filter: invert(100%);
+}
+.dropbtn2 img{
+    background-color: #24BABA;
+    border-radius: 50%;
+    filter: invert(100%);
+}
+
 .bars{
-    /* align-items: center; */
     display: none;
 
     @media (max-width: 958px) {
         display: block;
-        padding-left: 30px;
+        cursor: pointer;
     }
 }
 .bars img{
     width: 30px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 110px;
+  right: 10px;
+  background: linear-gradient(to bottom, #4a4a4a, #1a1a1a);
+  min-width: 180px;
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  overflow: hidden;
+  /* z-index: 99; */
+ 
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropbtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 22px;
+  color: #000;
+}
+.dropbtn2{
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+    color: #000;
+}
+.dropdown-content a {
+  display: block;
+  padding: 12px 16px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.dropdown-content a:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+/* Show on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 /* Hero Section */
@@ -184,14 +267,14 @@ img{
 
     @media (max-width: 950px) {
         
-        max-width: 95%;
+        max-width: 99%;
         margin-inline: auto;
 
-        @media (max-width: 480px) {
+        
+    }
+    @media (max-width: 480px) {
             display: block;
         }
-    }
-    
 }    
 .hero-content{
     display: block;
@@ -868,4 +951,202 @@ img{
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
+}
+.footer{
+    background-color: #000; 
+    margin-inline: auto;
+    padding: 90px 80px 20px 120px;
+    
+}
+.footer-content{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    @media (max-width: 1030px) {
+        flex-wrap: wrap;
+        gap: 70px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+}
+.footer-top{
+    flex-direction: column;
+    align-items: end;
+    text-align: left;
+}
+.footer-top h2{
+    font-family: "Inter", sans-serif;   
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 3px;
+    color: #FAFAFA;
+    margin: 0 0 25px 0;
+}
+.footer-top h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FAFAFA;
+    margin: 0 0 25px 0;
+}
+.footer-top p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FAFAFA;
+    margin: 0 0 15px 0;
+}
+.email-section{
+    display: flex;
+    gap: 10px;
+    border: 1px solid #FAFAFA;
+    background-color: #fafafa;
+    padding: 10px;
+}
+.email-section input{
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+.email-section input:focus{
+    outline: none;
+}
+.email-section button{
+    border: none;
+    cursor: pointer;
+}
+.email-section img{
+ 
+
+}
+.support-section h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FAFAFA;
+    margin: 0 0 25px 0;
+}
+.support-section address{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FAFAFA; 
+    max-width: 200px;
+}
+.move{
+    margin: 0 0 25px 0;
+}
+.support-section a{
+    display: block;
+    text-decoration: none;
+    color: #FAFAFA;
+    margin: 0 0 25px 0;
+}
+.support-section a:hover{
+    text-decoration: underline;
+}
+.account-section{
+    color: #FAFAFA;
+}
+.account-section h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FAFAFA;
+    margin: 0 0 25px 0;
+}
+.account-section ul{
+    list-style: none;
+}
+.account-section li{
+    margin: 0 0 23px 0;
+}
+.account-section a{
+    text-decoration: none;
+    color: #FAFAFA;
+    margin: 0 0 25px 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.account-section a:hover{
+    text-decoration: underline;
+}
+.quick-section{
+    color: #FAFAFA;
+}
+.quick-section h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FAFAFA;
+    margin: 0 0 25px 0;
+}
+.quick-section ul{
+    list-style: none;
+}
+.quick-section li{
+    margin: 0 0 23px 0;
+}
+.quick-section a{
+    text-decoration: none;
+    color: #FAFAFA;
+    margin: 0 0 25px 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.quick-section a:hover{
+    text-decoration: underline;
+}
+.Download-section{
+    max-width: 250px;
+}
+.Download-section h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FAFAFA;
+    margin: 0 0 25px 0;
+}
+.Download-section p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FAFAFA;
+    margin: 0 0 10px 0;
+}
+.app-link{
+    display: flex;
+    gap: 10px;
+    margin: 0 0 25px 0;
+}
+.app-link img{
+    filter: invert(100%);
+}
+.store-buttons img{
+    filter: invert(100%);
+}
+.social-icon{
+    display: flex;
+    gap: 20px;
+}
+.social-icon img{
+    filter: invert(100%);
+}
+.playstore{
+    border: 1px solid #FAFAFA;
+    padding: 20px;
 }

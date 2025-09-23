@@ -47,3 +47,25 @@ leftButton.addEventListener("click", leftSide)
 
 cateRightButton.addEventListener("click", cateScrollRight)
 cateLeftButton.addEventListener("click", cateScrollLeft)
+
+
+// Acount button 
+
+let accountButton = document.querySelector(".dropbtn")
+let accountButton2 = document.querySelector(".dropbtn2")
+let dropContent = document.querySelector('.dropdown-content')
+
+function buttonClicked (){
+    dropContent.style.display = "block"
+    accountButton.style.display = "none"
+    accountButton2.style.display = "block"
+
+}
+accountButton.addEventListener("click", buttonClicked)
+
+function buttonUnClicked (){
+    dropContent.style.display = "none"
+    accountButton.style.display = "block"
+    accountButton2.style.display = "none"
+}
+accountButton2.addEventListener("click", buttonUnClicked)
