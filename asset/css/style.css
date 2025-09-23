@@ -834,26 +834,27 @@ img{
     }
 }
 .line-up{
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  padding: 40px 20px;
+  text-align: center;
 }
 .line-up-content{
     max-width: 260px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
 }
 .feature-icon{
-    display: flex;
-    justify-content: center;
-    background-color: #000;
-    height: 100px;
-    width: 100px;
-    border-radius: 100%;
+  width: 58px;
+  height: 58px;
+  background: #000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 15px;
 }
 .feature-icon img{
-    
-    padding: 30px;
     filter: invert(100%);
 }
 .line-up-content h3{
