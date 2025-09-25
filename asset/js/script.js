@@ -86,3 +86,11 @@ function searchClick2 (){
     searchIcon2.style.display = "none"
 }
 searchIcon2.addEventListener("click", searchClick2)
+
+
+
+
+
+
+
+
