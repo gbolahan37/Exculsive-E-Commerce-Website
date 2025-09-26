@@ -1,0 +1,114 @@
+.about{
+    max-width: 1080px;
+    margin-inline: auto;
+    margin-bottom: 120px;
+    margin-top: 60px ;
+
+    @media (max-width: 1030px){
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    
+    @media (max-width: 958px) {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+}
+.about-writeup{
+    max-width: 550px;
+}
+.about-writeup h1{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 64px;
+    letter-spacing: 6px;
+    margin: 0 0 25px 0;
+}
+.about-writeup p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 0 25px 0;
+}
+.company-review{
+    display: flex;
+    margin-top: 50px;
+    gap: 30px;
+    overflow: scroll;
+    -ms-overflow-style: none;
+}
+.company-review::-webkit-scrollbar {
+    display: none;
+}
+.Review-box {
+    width: 270px;
+    height: 230px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
+    cursor: pointer;
+    flex-shrink: 0 ;
+}
+.Review-box:hover{
+    background-color: #DB4444;
+    color: white;
+}
+.Review-box img:hover{
+    filter: invert(100%);
+}
+.Review-box span{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+.image-background{
+    background-color: #000;
+    border-radius: 50%;
+    padding: 20px;
+    margin-bottom: 30PX;
+}
+.image-background img{
+    filter: invert(100%);
+}
+.staffs-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.staff-image{
+    background-color: #F5F5F5;
+    padding: 0 25px 0 25px;
+    
+}
+.staff-info h3{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size:  clamp(1.2rem, 10vw, 2rem);
+    letter-spacing: 3px;
+    margin-bottom: 7px;
+}
+.staff-info p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: clamp(0.3rem, 10vw, 1rem);
+
+}

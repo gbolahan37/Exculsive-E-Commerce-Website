@@ -1,0 +1,252 @@
+/* product detail  */
+.product-details{
+    max-width: 1080px;
+    margin-inline: auto;
+    /* margin-bottom: 120px; */
+    /* margin-top: 60px ; */
+    margin: 60px;
+
+    @media (max-width: 1030px){
+        /* margin-left: 60px; */
+        /* margin-right: 60px; */
+    }
+}
+.detail-container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    max-width: 1080px;
+    margin-inline: auto;
+    margin-bottom: 120px;
+    margin-top: 60px ;
+
+    @media (min-width: 1030px) {
+        grid-template-columns: 1fr 1fr;
+    }
+    @media (max-width: 480px) {
+        
+
+    }
+    @media (max-width: 1029px){
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+}
+.about-detail{
+    border-bottom: 1px solid #c4bebe;
+    
+}
+.product-detail-image{
+    background-color: #F5F5F5;
+    padding: 30px;
+    height: 550px;
+    border-radius: 4px;
+    padding: 100px 40px 50px 40px ;
+}
+#detail-image{
+    width: 400px;
+    margin-inline: auto;
+
+}
+#detail-image img{
+    display: flex;
+    justify-content: center;
+}
+.about-detail h3{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin: 0 0 10px 0;
+    
+}
+.paragraph1{
+    color: #FFAD33;
+    margin: 0 0 10px 0;
+}
+.product-detail__rating{
+    color: gray ;
+}
+.product-detail__price{
+    color: #000;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    margin: 0 0 50px 0;
+}
+.Detail-about{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    /* width: 500px; */
+    
+    
+}
+.second-detail{
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.pro-image{
+    background-color: #F5F5F5;
+    height: 200px;
+    padding: 30px;
+}
+.see-less{
+    display: none;
+    cursor: pointer;
+    margin: 10px 0 10px 0;
+}
+.read-more{
+    cursor: pointer;
+    margin: 10px 0 10px 0;
+}
+.detail-color{
+    margin: 20px 0 20px 0;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+.detail-color span{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.size{
+    display: flex;
+    gap: 20px;
+}
+.size span{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.size-boxes{
+    display: flex;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+.boxes{
+    width: 32px;
+    height: 32px;
+    border: 1px solid #000000;
+
+}
+.size-boxes button{
+    padding: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #000;
+    
+}
+.boxes button{
+    border: none;
+    background-color: transparent;
+}
+.detail-buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 25px;
+    flex-wrap: wrap;
+
+
+    
+}
+.quantity{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.quantity button{
+    padding: 3px;
+    background-color: transparent;
+    border: 1px solid #666;
+    cursor: pointer;
+    width: 40px;
+    height: 44px;
+    border-radius: 4px 0 0 4px;
+
+}
+.quantity button:hover{
+    background-color: #DB4444;
+}
+.quantity span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.buy-button{
+    height: 44px;
+    padding: 10px 48px 10px 48px;
+    border-radius: 4px;
+    border: 1px solid #000;
+    cursor: pointer;
+    background-color: transparent;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.buy-button:hover{
+    background-color: #DB4444;
+    color: #FAFAFA;
+}
+.wishlist-button{
+    height: 44px;
+    width: 40px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: transparent;
+}
+.wishlist-button:hover{
+    background-color: #DB4444;
+}
+.delivery{
+    border: 1px solid #000;
+    max-width: 400px;
+    margin-top: 25px;
+}
+.free-delivery{
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid #000;
+    padding: 10px;
+}
+.return-delivery{
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid #000;
+    padding: 10px;
+}
+.free-text h5{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.free-text p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    
+}
+.free-text p a{
+    color: #000;
+}
+.return h5{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.return p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 12px;   
+}
+.return p a{
+    color: #000;
+}

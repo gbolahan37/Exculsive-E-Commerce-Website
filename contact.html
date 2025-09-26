@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SignUp</title>
+    <title>Login</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Cossette+Titre:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="asset/css/product-detail.css">
     <link rel="stylesheet" href="asset/css/login.css">
     <link rel="stylesheet" href="asset/css/about.css">
+    <link rel="stylesheet" href="asset/css/contact.css">
 </head>
 <body>
     <div class="top-header">
@@ -26,11 +27,11 @@
         </div>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="about.html">About</a></li>
                 <div class="active">
-                    <li><a href="signup.html">Sign Up</a></li>
+                  <li><a href="contact.html">Contact</a></li>
                 </div>
+                <li><a href="about.html">About</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
             </ul>
             <div class="search-container">
                 <div class="search">
@@ -68,40 +69,50 @@
                 </div>
             </div>
     </section>
-    <section class="SignUp">
-        <div class="signup-content">
-            <div class="sign-image">
-                <img src="asset/img/dl.beatsnoop 1.png" alt="">
+    <section class="contact">
+      <div class="contact-container">
+        <div class="contact-card">
+          <div class="contact-call">
+            <div class="contact-title">
+              <div class="contact-icon">
+                <img src="asset/img/telephone.png" alt="">
+              </div>
+              <span>Call To Us</span>
             </div>
-            <div class="form-right">
-      <div class="form-container">
-        <h2>Create an account</h2>
-        <p>Enter your details below</p>
-
-        <form action="#" method="POST">
-          <div class="form-group">
-            <input type="text" placeholder="Name" required>
+            <div class="contact-text">
+              <p>We are available 24/7, 7 days a week.</p>
+              <P>Phone: +8801611112222</P>
+            </div>
           </div>
-
-          <div class="form-group">
-            <input type="email" placeholder="Email or Phone Number" required>
+          <div class="contact-email">
+            <div class="contact-title">
+              <div class="contact-icon">
+                <img src="asset/img/mail.png" alt="">
+              </div>
+              <span>Call To Us</span>
+            </div>
+            <div class="contact-text">
+              <p>Fill out our form and we will contact you within 24 hours.</p>
+              <P>Emails: customer@exclusive.com <br>Emails: support@exclusive.com</P>
+            </div>
           </div>
-
-          <div class="form-group">
-            <input type="password" placeholder="Password" required>
+        </div>
+        <form action="" class="contact-form">
+          <div class="contact-inputs">
+            <div class="contact-info">
+              <input type="text" placeholder="Your Name*" required>
+            </div>
+            <div class="contact-info">
+              <input type="text" placeholder="Your Email*" required>
+            </div>
+            <div class="contact-info">
+              <input type="text" placeholder="Your Phone*" required>
+            </div>
           </div>
-
-          <button type="submit" class="btn">Create Account</button>
-
-          <button type="button" class="btn-google">
-            <a href="https://accounts.google.com/v3/signin/accountchooser?.com"><img src="asset/img/google.png" alt="Google"> Sign up with Google</a>
-          </button>
-
-          <p class="login-text">Already have an account? <a href="login.html">Log in</a></p>
+          <textarea name="" id="message-area" placeholder="Your Message"></textarea>
+          <button>Send Message</button>
         </form>
       </div>
-    </div>
-    </section>
     </section>
     <section class="footer">
       <div class="footer-content">

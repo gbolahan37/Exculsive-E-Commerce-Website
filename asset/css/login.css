@@ -1,0 +1,134 @@
+/* SIGN-UP SECTION  */
+.SignUp{
+    padding: 30px;
+}
+.sign-image img{
+    width: 500px;
+}
+.sign-section{
+    padding: 20px 30px;
+    align-items: center;
+}
+.signup-content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    @media (max-width: 958px) {
+        display: block;
+
+    }
+}
+.form-page {
+  display: flex;
+  height: 100vh;
+}
+
+/* Left side */
+.form-left {
+  flex: 1;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-left img {
+  max-width: 80%;
+  height: auto;
+}
+
+/* Right side */
+.form-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 350px;
+}
+
+.form-container h2 {
+  font-size: 28px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.form-container p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+/* Inputs */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.form-group input:focus {
+  border-color: #000;
+  outline: none;
+}
+
+/* Buttons */
+.btn {
+  width: 100%;
+  padding: 16px 122px 16px 122px;
+  background: #DB4444;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  align-items: center;
+  text-align: center;
+}
+
+.btn-google {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 15px;
+  background: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+.btn-google img {
+  width: 20px;
+  height: 20px;
+}
+.btn-google a{
+    text-decoration: none;
+    color: #000;
+}
+.login-text {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.login-text a {
+  color: #000;
+  font-weight: 500;
+  text-decoration: none;
+}
+.forget-password a{
+    color: #DB4444;
+}
