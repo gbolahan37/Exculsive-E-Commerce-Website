@@ -61,14 +61,12 @@
 .billing-label{
     margin-bottom: 10px;
 }
-.checkout{
-    width: 100%;
-}
 .item{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
+    gap: 32px;
 }
 .item1{
     display: flex;
@@ -77,6 +75,7 @@
     margin-bottom: 30px;
     border-bottom: 1px solid ;
     padding-bottom: 15px;
+    gap: 32px;
 }
 .item-image{
     display: flex;
