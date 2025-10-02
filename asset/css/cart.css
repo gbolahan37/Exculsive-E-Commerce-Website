@@ -1,0 +1,128 @@
+.cart{
+    margin-inline: auto;
+    max-width: 1080px;
+    margin-bottom: 120px;
+    margin-top: 50px;
+    
+    @media (max-width: 950px) {
+        
+    }
+    @media (max-width: 1030px){
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+.cart-title{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
+    border-bottom: 20px;
+}
+.cart-title span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.cart-image{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.cart-image img{
+    width: 30px;
+}
+.cart-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+
+    @media (max-width: 460px) {
+        display: block;
+    }
+}
+.cart-buttons button{
+    padding: 16px 48px 16px 48px;
+    border: 1px solid ;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #DB4444;
+    color: #f5f5f5;
+}
+.cart-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+     @media (max-width: 850px) {
+        flex-direction: column;
+        gap: 20px;
+     }
+}
+.coupon-container{
+    display: flex;
+    gap: 20px;
+}
+.coupon-input{
+    padding: 16px 48px 16px 28px;
+    border: 1px solid;
+    border-radius: 4px;
+}
+.coupon-input:focus{
+    outline: none;
+}
+.coupon-btn{
+    padding: 16px 48px 16px 48px;
+    border: 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #DB4444;
+    color: #f5f5f5;
+}
+.cart-total{
+    border: 1px solid;
+    /* height: 324px; */
+    padding: 16px 20px 16px 20px;
+    width: 40%;
+    @media (max-width: 850px) {
+        width: 100%;
+    }
+    
+}
+.cart-total-title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.cart-total-subtotai{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.cart-total-subtotai p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.cart-total-subtotai span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.proceed-button{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.proceed-button button{
+    padding: 16px 48px 16px 48px;
+    border-radius: 4px;
+    border: 1px solid;
+    background-color: #DB4444;
+    cursor: pointer;
+    color: #f5f5f5;
+}

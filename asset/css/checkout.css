@@ -1,0 +1,158 @@
+.checkout{
+    max-width: 1080px;
+    margin-inline: auto;
+    margin-bottom: 120px;
+    margin-top: 30px;
+
+    @media (max-width: 950px) {
+        display: block;
+        max-width: 95%;
+        margin-inline: auto;
+    }
+    @media (max-width: 1030px){
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+.checkout-container{
+    display: flex;
+    /* padding: 30px; */
+    gap: 40px;
+    @media (max-width: 1030px) {
+        display: block;
+    }
+}
+.billing-title h2{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+.formmm{
+    flex-direction: column;
+    gap: 40px;
+    /* border: 1px solid red; */
+    padding: 0 20px 20px 20px;
+    
+}
+.billing-input{
+    background-color: #f5f5f5;  
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+.billing-group label{
+    color: gray;
+    margin-bottom: 90px;
+}
+.billing-input input{
+    border: none;
+    padding: 10px;
+    background-color: transparent;
+    width: 470px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.billing-input input:focus{
+    outline: none;
+}
+.billing-label{
+    margin-bottom: 10px;
+}
+.checkout{
+    width: 100%;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.item1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: 1px solid ;
+    padding-bottom: 15px;
+}
+.item-image{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.item-image img{
+    width: 48px;
+}
+.image-name{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.checkout-price{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.Subtotal span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.checkout-price img{
+    width: 30px;
+}
+.coupon{
+    display: flex;
+    gap: 30px;
+    @media (max-width: 460px) {
+        display: block;
+    }
+}
+.coupon-text{
+    border: 1px solid #000;
+    padding: 16px 38px 16px 38px;
+    border-radius: 4px;
+    @media (max-width: 460px) {
+        margin-bottom: 20px;
+    }
+}
+.coupon-text input{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+}
+.coupon-text input:focus{
+    outline: none;
+}
+.coupon-button{
+    padding: 16px 48px 16px 48px;
+    background-color: #DB4444;
+    border-radius: 4px;
+    color: #f5f5f5;
+    border: none;
+    cursor: pointer;
+}
+.place-order{
+    margin-top: 20px;
+}
+.place-order button{
+    padding: 16px 48px 16px 48px;
+    background-color: #DB4444;
+    color: #f5f5f5;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+.billing-checkbox{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.billing-checkbox p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}

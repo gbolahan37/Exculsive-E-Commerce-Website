@@ -43,8 +43,8 @@
     display: flex;
     margin-top: 50px;
     gap: 30px;
-    overflow: scroll;
-    -ms-overflow-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .company-review::-webkit-scrollbar {
     display: none;

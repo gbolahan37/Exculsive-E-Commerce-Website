@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="asset/css/login.css">
     <link rel="stylesheet" href="asset/css/about.css">
     <link rel="stylesheet" href="asset/css/contact.css">
+    <script src="asset/js/search.js" defer></script>
+    <script src="asset/js/ham.js" defer></script>
 </head>
 <body>
     <div class="top-header">
@@ -44,8 +46,8 @@
                     </div>
                 </div>
                 <div class="icons">
-                    <a href=""><img src="asset/img/love.png" alt=""></a>
-                    <a href=""><img src="asset/img/shopping-cart (1).png" alt=""></a>
+                    <a href="wishlist.html"><img src="asset/img/love.png" alt=""></a>
+                    <a href="cart.html"><img src="asset/img/shopping-cart (1).png" alt=""></a>
                     <div style="display: none;">
 
                       <button class="dropbtn">
@@ -60,7 +62,7 @@
                     </div>
                     <div class="dropdown-content">
                       <div class="dropdown">
-                      <a href="#">Manage My Account</a>
+                      <a href="account.html">Manage My Account</a>
                       <a href="#">My Order</a>
                       <a href="#">My Cancellations</a>
                       <a href="#">My Reviews</a>
@@ -69,6 +71,16 @@
                 </div>
             </div>
     </section>
+    <div class="ham-nav visible">
+      <nav class="nav-dropdown">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="signup.html">Sign Up</a></li>
+        </ul>
+      </nav>
+    </div>
     <section class="contact">
       <div class="contact-container">
         <div class="contact-card">
@@ -89,7 +101,7 @@
               <div class="contact-icon">
                 <img src="asset/img/mail.png" alt="">
               </div>
-              <span>Call To Us</span>
+              <span>Write To US</span>
             </div>
             <div class="contact-text">
               <p>Fill out our form and we will contact you within 24 hours.</p>
@@ -106,13 +118,23 @@
               <input type="text" placeholder="Your Email*" required>
             </div>
             <div class="contact-info">
-              <input type="text" placeholder="Your Phone*" required>
+              <input type="text" placeholder="Your Phone" required>
             </div>
           </div>
           <textarea name="" id="message-area" placeholder="Your Message"></textarea>
-          <button>Send Message</button>
+          <div class="send-button">
+            <button>Send Message</button>
+          </div>
         </form>
       </div>
+    </section>
+    <section class="search-background">
+      <div class="search-type-area">
+        <div class="search-border">
+          <input class="myinput" type="search" placeholder="What are you looking for?">
+          <button class="esc-btn">esc</button>
+        </div>
+        </div>
     </section>
     <section class="footer">
       <div class="footer-content">
