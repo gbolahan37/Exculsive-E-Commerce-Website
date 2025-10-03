@@ -3,6 +3,7 @@
     max-width: 1080px;
     margin-inline: auto;
     margin-bottom: 120px;
+    padding-top: 150px;
 
     @media (max-width: 950px) {
         display: block;

@@ -2,8 +2,9 @@
 .product-details{
     max-width: 1080px;
     margin-inline: auto;
-    /* margin-bottom: 120px; */
-    /* margin-top: 60px ; */
+    padding-top: 150px;
+    margin-bottom: 120px;
+    margin-top: 60px ;
     margin: 60px;
 
     @media (max-width: 1030px){
@@ -19,7 +20,7 @@
     max-width: 1080px;
     margin-inline: auto;
     margin-bottom: 120px;
-    margin-top: 60px ;
+    margin-top: 180px;
 
     @media (min-width: 1030px) {
         grid-template-columns: 1fr 1fr;

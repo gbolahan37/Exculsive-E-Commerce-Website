@@ -10,10 +10,18 @@ img{
     max-width: 100%;
 }
 /* top header  */
+.top-navbar{
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 99;
+    top: 0;
+}
 .top-header{
     background-color: #000000;
     display: flex;
     justify-content: center;
+    
 }
 .top-header p{
     color: #FAFAFA;
@@ -34,6 +42,8 @@ img{
     align-items: center;
     padding: 35px 90px 10px 90px;
     border-bottom: 1px solid #c4bebe;
+    /* position: fixed; */
+    background-color: white;
 
     @media (max-width: 779px) {
         margin-inline: auto;
@@ -223,6 +233,7 @@ img{
     border-top: 1px solid #c4bebe;
     margin-inline: auto;
     margin-bottom: 120px;
+    padding-top: 150px;
 
     @media (max-width: 950px) {
         display: block;
