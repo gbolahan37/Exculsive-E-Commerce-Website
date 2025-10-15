@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    max-width: 1280px;
+    /* max-width: 1280px; */
 }
 img{
     max-width: 100%;
@@ -145,13 +145,9 @@ img{
 .icons{
     display: flex;
     gap: 10px;
+    align-items: center;
 
-    @media (max-width: 360px) {
-        display: none;
-    }
-}
-.icons img{
-    max-width: 100%;
+
 }
 .dropbtn img:hover{
     background-color: #24BABA;
@@ -214,7 +210,9 @@ img{
   text-decoration: none;
   font-size: 14px;
 }
-
+.profile-icon{
+    display: none;
+}
 .dropdown-content a:hover {
   background: rgba(255,255,255,0.1);
 }
@@ -294,6 +292,7 @@ img{
     }
     @media (max-width: 480px) {
             display: block;
+            padding: 20px;
         }
 }    
 .hero-content{
@@ -700,6 +699,7 @@ img{
 
     @media (max-width: 950px) {
         display: block;
+        padding: 30px;
     }
 }
 .speaker-content{
@@ -744,6 +744,7 @@ img{
     font-size: 16px;
     line-height: 24px;
     cursor: pointer;
+    margin-bottom: 24px;
     
     
 }
@@ -815,6 +816,7 @@ img{
     font-family: "Inter", sans-serif;
     font-weight: 600;
     font-size: clamp(1.5rem, 10vw, 2.5rem);
+    margin-bottom: 20px;
 }
 .New-arrival-post{
     display: grid;
@@ -1018,7 +1020,7 @@ img{
 }
 .footer{
     background-color: #000; 
-    margin-inline: auto;
+    /* margin-inline: auto; */
     padding: 90px 80px 20px 80px;
     
 }
@@ -1031,6 +1033,10 @@ img{
         gap: 70px;
         text-align: center;
         justify-content: center;
+    }
+    @media (max-width: 750px) {
+        text-align: left;
+        justify-content: start;
     }
     
 }

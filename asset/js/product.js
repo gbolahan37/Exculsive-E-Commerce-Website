@@ -175,3 +175,10 @@ function clickSeeLess (){
     productDescription.classList.add("second-detail")
 }
 seeLess.addEventListener("click", clickSeeLess)
+
+function AddNumbers(a, b) {
+    let sum = a + b
+    return sum
+}
+
+let sumOf2_3 = AddNumbers(3, 5)
